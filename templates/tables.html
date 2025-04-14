@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is the Template</title>
+</head>
+<body>
+    <p>I am going to try to put cycles on the screen... here I go!!</p>
+    {%for items in data['results']%}
+        {%for i in items['election_districts']%}
+        <p>{{i}}</p>
+        {%endfor%}
+
+    {%endfor%}
+</body>
+</html>
