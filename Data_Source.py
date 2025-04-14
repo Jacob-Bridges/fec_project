@@ -1,7 +1,7 @@
 import requests
 from nltk.featstruct import retract_bindings
 
-API_KEY = 'aLOkMcHbtZ0LuDLoDKswAWT8a9CDrSzZCa0FLYSD'
+API_KEY = '' #API Key removed for security purposes
 
 URL = 'https://api.open.fec.gov/v1/candidate/P80000722/'
 
